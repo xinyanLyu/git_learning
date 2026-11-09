@@ -73,6 +73,6 @@ The README is always displayed at the bottom of the Code section of your reposit
 
 - The project title and motivation/background.
 
-- A description of the problem it solves, the process used, and the technologies chosen.
+- fundamenta: tit A description of the problem it solves, the process used, and the technologies chosen, and why.
 
 - A table of contents, any limitations or challenges faced, intended use cases, and proper credits for external sources.
