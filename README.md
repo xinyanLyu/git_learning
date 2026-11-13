@@ -79,12 +79,26 @@ The README is always displayed at the bottom of the Code section of your reposit
    -  Description of process and why?
    -   table of contents
   
-
 - Extra:
    - How project came about
    - motivation
    - limitation
    - challenges
    - problem it solves
+     
+## 2. Repos
+### 2.1 Modify the repo structure
+ Here is a summary of the key actions demonstrated:
+
+ - Creating a New File: Select the Add file button, choose Create new file, enter the filename with its extension (e.g., requirements.txt), add your content, write a brief commit message, and commit the changes.
+
+ - Uploading Files: Use the Upload files option under the Add file menu to drag and drop local files into the repository, then commit the change with a description.
+
+ - Creating a New Directory: Type the name of the new directory followed by a forward slash (e.g., EDA/) in the create file field. Because GitHub does not allow empty directories, you must add a placeholder file (like a README) and commit it.
+
+ - Modifying an Existing File: Click on the file, select the pencil (edit) icon to make changes, and save by making a commit.
+
+ - Deleting a File: Open the file you wish to remove, click the bin (delete) icon located next to the edit icon, and commit the changes to update the repository.
+
    - intended use cases
    -  proper credits for external sources.
