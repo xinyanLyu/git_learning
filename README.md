@@ -102,3 +102,10 @@ The README is always displayed at the bottom of the Code section of your reposit
 
    - intended use cases
    -  proper credits for external sources.
+### 2.2 Branch
+ - Branches Overview: Branches allow concurrent work on different parts of a project and help prevent file version conflicts. When a repository is created, it starts with a default branch called main.
+
+ - Creating and Managing Branches: You can check the number of active branches using the branch icon, create new branches (such as a la liga branch for specific analyses), and easily switch between them using the dropdown menu.
+
+ - Branch Protection Rules: To maintain code quality and secure your repository, you can configure settings under the Settings tab. This includes adding rules (like naming them protect main) to require pull requests and mandatory approvals before changes can be merged into the default branch.
+ 
