@@ -109,3 +109,9 @@ The README is always displayed at the bottom of the Code section of your reposit
 
  - Branch Protection Rules: To maintain code quality and secure your repository, you can configure settings under the Settings tab. This includes adding rules (like naming them protect main) to require pull requests and mandatory approvals before changes can be merged into the default branch.
  
+### 2.3 Repo Access
+- When to Use Private Repositories: While public repos are great for open sharing, private repos are essential when working with sensitive datasets containing personally identifiable information (like names and addresses in a bank marketing campaign) or proprietary commercial code (such as a custom AI model).
+
+- Creating and Verifying a Private Repo: When clicking New repository, switch the visibility option from Public to Private. You can confirm a repo is private by checking for the Private label next to its name and verifying that its URL cannot be viewed when signed out.
+
+- Adding Collaborators: To work with specific colleagues on a private project, go to the Settings tab and select Collaborators under the Access section. From there, you can search for users by their exact GitHub username, full name, or email to send an invite. Once they accept the pending invitation, they will have direct access to the repository.
