@@ -115,3 +115,18 @@ The README is always displayed at the bottom of the Code section of your reposit
 - Creating and Verifying a Private Repo: When clicking New repository, switch the visibility option from Public to Private. You can confirm a repo is private by checking for the Private label next to its name and verifying that its URL cannot be viewed when signed out.
 
 - Adding Collaborators: To work with specific colleagues on a private project, go to the Settings tab and select Collaborators under the Access section. From there, you can search for users by their exact GitHub username, full name, or email to send an invite. Once they accept the pending invitation, they will have direct access to the repository.
+
+### 2.4 Personal Access Tokens (PAT)
+- Why PATs Are Needed: Password authentication for terminal Git operations was removed on August 13, 2021. A Personal Access Token serves as a more secure alternative to a password when interacting with remote repositories from the terminal (such as clone, fetch, pull, or push), though it isn't needed for normal GitHub web usage.
+
+- Creating a PAT:
+
+  - Navigate to your account Settings (from your profile), scroll to the bottom left, and select Developer settings.
+
+  - Choose Personal access tokens and click Generate new token.
+
+  - Give it a descriptive Note (e.g., bank marketing PAT) and set an Expiration window (such as the default 30 days, or 7, 60, 90 days, or a custom date).
+
+  - Select the appropriate scope—checking repo grants access to repositories, including private ones—then scroll down and click Generate token.
+
+- Copying and Using Your PAT: Copy the generated token immediately using the clipboard icon, as GitHub will not display it again once you leave or refresh the page, and keep it private. When prompted for your password in the terminal (for example, while running git clone), paste the PAT to authenticate and access the repository locally.
